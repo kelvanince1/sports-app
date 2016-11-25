@@ -1,7 +1,7 @@
 {
   "name": "sports-app",
   "version": "0.1.0",
-  "Home": "",
+  "Home": "http://kelvanince1.github.io/sports-app",
   "private": true,
   "devDependencies": {
     "react-scripts": "0.7.0"
