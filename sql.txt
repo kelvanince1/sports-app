@@ -1,0 +1,120 @@
+CREATE TABLE nfl_players(
+  NAME TEXT NOT NULL,
+  POSITION INT,
+  TOUCHDOWNS TEXT
+);
+
+
+INSERT INTO nfl_players VALUES
+('Tom Brady', 'QB', 16),
+('Ben Roethlisberger', 'QB', 23),
+('Drew Brees', 'QB', 26),
+('Marcus Mariota', 'QB', 23),
+('Matt Ryan', 'QB', 24),
+('Matthew Stafford', 'QB', 19),
+('Derek Carr', 'QB', 20),
+('Aaron Rodgers', 'QB', 25),
+('Dak Prescott', 'QB', 18),
+('Kirk Cousins', 'QB', 20),
+('Phillip Rivers', 'QB', 20),
+('Jameis Winston', 'QB', 20),
+('Andrew Luck', 'QB', 19),
+('Blake Bortles', 'QB', 18),
+('Eli Manning', 'QB', 17)
+;
+
+INSERT INTO nfl_players VALUES
+('LeGarrette Blount', 'RB', 12),
+('Ezekiel Elliott', 'RB', 11),
+('David Johnson', 'RB', 10),
+('Melvin Gordon', 'RB', 9),
+('Latavius Murray', 'RB', 8),
+('DeMarco Murray', 'RB', 8),
+('Ryan Mathews', 'RB', 7),
+('LeSean McCoy', 'RB', 7),
+('Matt Forte', 'RB', 7),
+('Jay Ajayi', 'RB', 6),
+('Carlos Hyde', 'RB', 6),
+('Jeremy Hill', 'RB', 6),
+('Matt Asiata', 'RB', 5),
+('Tevin Coleman', 'RB', 5),
+('Isiah Crowell', 'RB', 5),
+('Jonathan Stewart', 'RB', 5)
+;
+
+INSERT INTO nfl_players VALUES
+('Antonio Brown', 'WR', 10),
+('Jordy Nelson', 'WR', 9),
+('Mike Evans', 'WR', 8),
+('Davante Adams', 'WR', 6),
+('Odell Beckham', 'WR', 6),
+('Anquan Boldin', 'WR', 6),
+('Brandin Cooks', 'WR', 6),
+('Michael Crabtree', 'WR', 6),
+('Jamison Crowder', 'WR', 6),
+('Rishard Matthews', 'WR', 6),
+('Allen Robinson', 'WR', 6),
+('Doug Baldwin', 'WR', 5),
+('Cole Beasley', 'WR', 5),
+('Donte Moncrief', 'WR', 5),
+('Dez Bryant', 'WR', 5),
+('Larry Fitzgerald', 'WR', 5),
+('Julio Jones', 'WR', 5),
+('TY Hilton', 'WR', 5),
+('Sterling Shepard', 'WR', 5),
+('Michael Thomas', 'WR', 5),
+('Demariyus Thomas', 'WR', 5)
+;
+
+INSERT INTO nfl_players VALUES
+('Antonio Gates', 'TE', 5),
+('Cameron Brate', 'TE', 5),
+('Jordan Reed', 'TE', 5),
+('Delanie Walker', 'TE', 5),
+('Martellus Bennett', 'TE', 5),
+('Jack Doyle', 'TE', 5),
+('Jimmy Graham', 'TE', 4),
+('Hunter Henry', 'TE', 4),
+('Vance McDonald', 'TE', 4),
+('Zach Miller', 'TE', 4),
+('Julius Thomas', 'TE', 4)
+;
+
+CREATE TABLE nfl_teams(
+  NAME TEXT NOT NULL
+);
+
+INSERT INTO nfl_teams VALUES
+('Arizona Cardinals'),
+('Atlanta Falcons'),
+('Baltimore Ravens'),
+('Buffalo Bills'),
+('Carolina Panthers'),
+('Chicago Bears'),
+('Cincinnati Bengals'),
+('Cleveland Browns'),
+('Dallas Cowboys'),
+('Denver Broncos'),
+('Detroit Lions'),
+('Green Bay Packers'),
+('Houston Texans'),
+('Indianapolis Colts'),
+('Jacksonville Jaguars'),
+('Kansas City Chiefs'),
+('Los Angeles Rams'),
+('Miami Dolphins'),
+('Minnesota Vikings'),
+('New England Patriots'),
+('New Orleans Saints'),
+('New York Giants'),
+('New York Jets'),
+('Oakland Raiders'),
+('Phildalphia Eagles'),
+('Pittsburgh Steelers'),
+('San Diego Chargers'),
+('San Francisco 49ers'),
+('Seattle Seahawks'),
+('Tampa Bay Buccaneers'),
+('Tennesse Titans'),
+('Washington Redskins')
+;
