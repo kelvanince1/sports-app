@@ -36,9 +36,19 @@ body {
   display: inline-block;
   margin: 0px 100px;
   color: #b3b3b3;
+  font-size: 30px;
 }
 
 #homebar a {
   text-decoration: none;
   color: #cca300;
+}
+
+h3 {
+  font-size: 30px;
+  margin-top: -200px;
+}
+
+img {
+  width: 500px;
 }
