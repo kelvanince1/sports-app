@@ -9,7 +9,8 @@ class App extends Component {
         <nav id="homebar">
           <ul>
           <li><Link to={"/home"}>SportsApp</Link></li>
-          <li><Link to={"/startsit"}>StartSit</Link></li>
+          <li><Link to={"/start"}>Start</Link></li>
+          <li><Link to={"/sit"}>Sit</Link></li>
           <li><Link to={"/rankings"}>Rankings</Link></li>
           <li><Link to={"/stats"}>Stats</Link></li>
           </ul>

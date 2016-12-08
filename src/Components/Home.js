@@ -1,12 +1,15 @@
 import React, { Component } from 'react';
 import App from '../App.css';
-// import { Link, IndexLink } from 'react-router';
+import { Link } from 'react-router';
 
 class Home extends Component {
   render() {
     return (
       <div>
-        <h3>Cowboys qualify</h3>
+        <h1>Your playoff stage is almost set</h1>
+        <p><Link to="./Analysis">Check out our analysis for all the matchups this weekend -></Link></p>
+        <img src='nfl.jpg' />
+        <h4 id="pp"><a href="http://www.nfl.com/playoffs/playoff-picture">Playoff Picture</a></h4>
       </div>
     );
   }

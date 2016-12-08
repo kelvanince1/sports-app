@@ -1,4 +1,4 @@
-.App {
+/*.App {
   text-align: center;
 }
 
@@ -16,39 +16,59 @@
 
 .App-intro {
   font-size: large;
-}
+}*/
 
-@keyframes App-logo-spin {
+/*@keyframes App-logo-spin {
   from { transform: rotate(0deg); }
   to { transform: rotate(360deg); }
-}
+}*/
 
 body {
   background-color: #00004d;
+  font-size: 25px;
   color: #ffd633;
+  font-family: 'Handlee', cursive;
 }
 
 #homebar {
-  height: 400px;
+  height: 200px;
+  background-color: #e5ba0d;
 }
 
 #homebar li {
   display: inline-block;
-  margin: 0px 100px;
-  color: #b3b3b3;
+  margin: 0px 80px;
   font-size: 30px;
+  font-family: 'Permanent Marker', cursive;
 }
 
-#homebar a {
+a {
   text-decoration: none;
-  color: #cca300;
+  color: #00004d;
 }
 
-h3 {
+h1 a {
+  color: #e5ba0d;
+}
+
+h4 a {
   font-size: 30px;
-  margin-top: -200px;
+  margin-top: 100px;
+  /*display: inline-block;*/
+  margin-right: 500px;
+  color: #e5ba0d;
 }
 
 img {
   width: 500px;
+}
+
+.headers h3 {
+  display: inline-block;
+  margin-right: 500px;
+  color: #e5ba0d;
+}
+
+#pp {
+  float: right;
 }

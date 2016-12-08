@@ -3,7 +3,7 @@ import axios from 'axios';
 // import App from '../App.css';
 // import { Link } from 'react-router';
 
-class StartSit extends Component {
+class Sit extends Component {
   constructor(props) {
     super(props);
 
@@ -13,7 +13,7 @@ class StartSit extends Component {
   }
 
   _playersCall() {
-    let playerUrl = `https://mighty-sierra-46575.herokuapp.com/players`;
+    let playerUrl = `https://hidden-spire-84221.herokuapp.com/sits`;
     axios.get(playerUrl).then(response => {
       this.setState({players: response.data})
     })
@@ -26,10 +26,13 @@ class StartSit extends Component {
   render() {
     return (
       <div>
-        {this.state.players.map((player, i) => <h3 key={i}>{player}</h3>)} 
+        <div id="headers">
+          <h3>Sit em</h3>
+        </div>
+        {this.state.players.map((sit, i) => <ol><li key={i}>{sit.player}, {sit.sit_em}</li></ol>)}
       </div>
     );
   }
 }
 
-export default StartSit;
+export default Sit;
