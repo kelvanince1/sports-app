@@ -28,7 +28,7 @@ class Stats extends Component {
           <h3>Defensive Team Stats</h3>
           <h5>Team, pass yds allowed, rush yds allowed, pts allowed, avg age</h5>
         </div>
-        {this.state.stats.map((stat, i) => <p key={i}>{stat.team}, {stat.passing_yards_allowed},  {stat.rushing_yards_allowed}, {stat.points_allowed}, {stat.average_age}</p>)}
+        {this.state.stats.map((stat, i) => <p key={i}>{stat.team}, {stat.passing_yards_allowed}, {stat.rushing_yards_allowed}, {stat.points_allowed}, {stat.average_age}</p>)}
       </div>
     );
   }

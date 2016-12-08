@@ -10,6 +10,7 @@ import Rankings from './Components/Rankings';
 import Stats from './Components/Stats';
 import Sit from './Components/Sit';
 import Analysis from './Components/Analysis';
+import Age from './Components/Age';
 
 // const app = document.getElementById('app');
 
@@ -23,6 +24,7 @@ ReactDOM.render(
       <Route path="/rankings" component={Rankings}></Route>
       <Route path="/stats" component={Stats}></Route>
       <Route path="/analysis" component={Analysis}></Route>
+      <Route path="/age" component={Age}></Route>
     </Route>
   </Router>,
   document.getElementById('root')

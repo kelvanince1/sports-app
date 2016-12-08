@@ -29,7 +29,7 @@ class StartSit extends Component {
         <div className="headers">
           <h3>Start em</h3>
         </div>
-        {this.state.starts.map((start, i) => <ol><li key={i}>{start.player} {start.start_em}</li></ol>)}
+        {this.state.starts.map((start, i) => <p key={i}>{start.player} {start.start_em}</p>)}
       </div>
     );
   }
