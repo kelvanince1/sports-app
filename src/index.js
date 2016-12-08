@@ -7,6 +7,7 @@ import App from './App';
 import Home from './Components/Home';
 import Start from './Components/Start';
 import Rankings from './Components/Rankings';
+import RbRankings from './Components/RbRankings';
 import Stats from './Components/Stats';
 import Sit from './Components/Sit';
 import Analysis from './Components/Analysis';
@@ -22,6 +23,9 @@ ReactDOM.render(
       <Route path="/start" component={Start}></Route>
       <Route path="/sit" component={Sit}></Route>
       <Route path="/rankings" component={Rankings}></Route>
+      <Route path="/rbrankings" component={Rankings}></Route>
+      // <Route path="/rankings" component={Rankings}></Route>
+      // <Route path="/rankings" component={Rankings}></Route>
       <Route path="/stats" component={Stats}></Route>
       <Route path="/analysis" component={Analysis}></Route>
       <Route path="/age" component={Age}></Route>
