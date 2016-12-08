@@ -29,7 +29,7 @@ class Sit extends Component {
         <div id="headers">
           <h3>Sit em</h3>
         </div>
-        {this.state.players.map((sit, i) => <ol><li key={i}>{sit.player}, {sit.sit_em}</li></ol>)}
+        {this.state.players.map((sit, i) => <p key={i}>{sit.player}, {sit.sit_em}</p>)}
       </div>
     );
   }

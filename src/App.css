@@ -70,9 +70,9 @@ img {
   color: #e5ba0d;
 }
 
-#rankings h3 {
+#rankings div {
   display: inline-block;
-  margin-right: 40px;
+  margin: 0px 40px;
 }
 
 img {
@@ -87,7 +87,7 @@ h4 {
   float: right;
   margin-top: 5px;
 }
-h4 a{
+h4 a {
   color: #e5ba0d;
 }
 
