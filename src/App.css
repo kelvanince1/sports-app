@@ -43,6 +43,12 @@ body {
   color: #e5ba0d;
 }
 
+
+
+#cowgia, #acid {
+  margin-top: 140px;
+}
+
 a {
   text-decoration: none;
   color: #00004d;
@@ -70,9 +76,15 @@ img {
   color: #e5ba0d;
 }
 
-#rankings div {
-  display: inline-block;
-  margin: 0px 40px;
+#container {
+  overflow: hidden;
+  margin-top: -50px;
+}
+
+#container div {
+  float: left;
+  margin-top: 20px;
+  margin-right: 80px;
 }
 
 img {

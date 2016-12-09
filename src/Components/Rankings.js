@@ -55,33 +55,33 @@ class Rankings extends Component {
 
   render() {
     return (
-      <div id="rankings">
+      <div id="container">
         <div>
         <div id="Qbrankings">
           <h3 onClick={this._rankingsCall}>Quarterbacks</h3>
         </div>
-        {this.state.rankings.map((ranking, i) => <p key={i}>{ranking.name}</p>)}
+        {this.state.rankings.map((ranking, i) => <p key={i}>{ranking.rank}, {ranking.name}</p>)}
         </div>
 
         <div>
         <div id="Rbrankings">
           <h3 onClick={this._rbRankingsCall}>Running Backs</h3>
         </div>
-        {this.state.rbRankings.map((rbranking, x) => <p key={x}>{rbranking.name}</p>)}
+        {this.state.rbRankings.map((rbranking, x) => <p key={x}>{rbranking.rank}, {rbranking.name}</p>)}
         </div>
 
         <div>
         <div id="Wrrankings">
           <h3 onClick={this._wrRankingsCall}>Wide Receivers</h3>
         </div>
-        {this.state.wrRankings.map((wrranking, x) => <p key={x}>{wrranking.name}</p>)}
+        {this.state.wrRankings.map((wrranking, x) => <p key={x}>{wrranking.rank}, {wrranking.name}</p>)}
         </div>
 
         <div>
         <div id="Terankings">
           <h3 onClick={this._teRankingsCall}>Tight Ends</h3>
         </div>
-        {this.state.teRankings.map((teranking, x) => <p key={x}>{teranking.name}</p>)}
+        {this.state.teRankings.map((teranking, x) => <p key={x}>{teranking.rank}, {teranking.name}</p>)}
         </div>
       </div>
     );
