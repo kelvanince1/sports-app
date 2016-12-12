@@ -1,8 +1,8 @@
 {
   "name": "sports-app",
   "version": "0.1.0",
-  "homepage": "https://kelvanince1.github.io/sports-app",
   "private": true,
+  "homepage": "http://kelvanince1.github.io/sports-app",
   "devDependencies": {
     "gh-pages": "^0.12.0",
     "react-scripts": "0.7.0"
