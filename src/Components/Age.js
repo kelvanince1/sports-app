@@ -7,13 +7,12 @@ class Age extends Component {
       <div>
         <h2>The Rams are the leagues youngest team</h2>
         <p>With an average age of just 25</p>
-        <img src="RamsAge.jpg" />
         <h2>Whereas the Falcons have the oldest</h2>
         <p>Averaging at 27.08</p>
-        <img src="FalconsAge.jpg" />
+        <img src={require('../photos/FalconsAge.jpg')} alt='falcons'/>
         <h2>When you consider how young the Seahawks are,<br /> their results over the last several years is even <br /> more impressive</h2>
         <p>Their average age is just 25.6</p>
-        <img src="SeahawksAge.jpg" />
+        <img src={require('../photos/SeahawksAge.jpg')} alt='seahawks'/>
       </div>
     );
   }
